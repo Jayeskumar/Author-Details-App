@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtSpace1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtPickedAuthor"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/pickanauthor" />
+
+        <TextView
+            android:id="@+id/txtSpace2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/sprAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/txtSpace3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/imgAuthor"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:src="@drawable/questionmark" />
+
+        <TextView
+            android:id="@+id/txtSpace4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtPickedAuthorBook"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/whoistheauthor" />
+
+        <TextView
+            android:id="@+id/txtSpace5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtPickedAuthorQuote"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</ScrollView>

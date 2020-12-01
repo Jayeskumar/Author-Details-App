@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "My Static Files App Full Code"
